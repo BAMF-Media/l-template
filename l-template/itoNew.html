@@ -1,0 +1,3984 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="lp-assets/img/cropped-LFE_initials700x700-32x32.png" sizes="32x32">
+    <title>LFE Loyal Fan</title>
+    <!-- Bootstrap -->
+    <link href="lp-assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="lp-assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="lp-assets/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="lp-assets/css/style.css">
+    <link rel="stylesheet" href="lp-assets/css/indexPopUp.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="lp-assets/js/indexHeaderBg.js"></script>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '542971816065343');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=542971816065343&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- AUTOPILOT CODE -->
+    <script type="text/javascript">(function (o) {
+        var b = "https://api.autopilothq.com/anywhere/",
+            t = "247bf9ceca1f47108c7f6fe1fb85bc3902029ad94e3b4e4eb7dd0d86885a61a1", a = window.AutopilotAnywhere = {
+                _runQueue: [], run: function () {
+                    this._runQueue.push(arguments);
+                }
+            }, c = encodeURIComponent, s = "SCRIPT", d = document, l = d.getElementsByTagName(s)[0],
+            p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || ""),
+            j = "text/javascript", z, y;
+        if (!window.Autopilot) window.Autopilot = a;
+        if (o.app) p = "devmode=true&" + p;
+        z = function (src, asy) {
+            var e = d.createElement(s);
+            e.src = src;
+            e.type = j;
+            e.async = asy;
+            l.parentNode.insertBefore(e, l);
+        };
+        y = function () {
+            z(b + t + '?' + p, true);
+        };
+        if (window.attachEvent) {
+            window.attachEvent("onload", y);
+        } else {
+            window.addEventListener("load", y, false);
+        }
+    })({});</script>
+    <!-- END AUTOPILOT CODE -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111002789-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111002789-2');
+    </script>
+
+
+    <style>
+
+
+        /*.throughFluid .throughContainer #clockdiv {*/
+        /*color: #fff;*/
+        /*display: flex;*/
+        /*text-align: center;*/
+        /*font-size: 18px;*/
+        /*margin-right: 15px;*/
+        /*}*/
+
+        /*.throughFluid .throughContainer .discount {*/
+        /*font-size: 18px;*/
+        /*margin: 0;*/
+        /*margin-right: 15px;*/
+        /*color: #b67633;*/
+        /*text-transform: uppercase;*/
+        /*font-family: 'Mission Gothic Bold';*/
+        /*font-weight: bold;*/
+        /*font-style: normal;*/
+        /*display: inline-block;*/
+        /*padding-top: 6px;*/
+        /*}*/
+
+        .throughFluid .throughContainer .h1 {
+            margin: 0 auto;
+            max-width: 900px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .throughFluid .throughContainer p {
+            font-family: 'Mission Gothic Light';
+            font-weight: lighter;
+            font-style: normal;
+            letter-spacing: 1px;
+            font-size: 19px;
+            color: #ffffff;
+            padding-top: 30px;
+            text-align: center;
+            line-height: 1.4em;
+        }
+
+        #email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            font-size: 20px;
+            color: gray;
+            font-family: 'Mission Gothic Light';
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.4em;
+        }
+
+        #email::-moz-placeholder { /* Firefox 19+ */
+            font-size: 20px;
+            color: gray;
+            font-family: 'Mission Gothic Light';
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.4em;
+        }
+
+        #email:-ms-input-placeholder { /* IE 10+ */
+            font-size: 20px;
+            color: gray;
+            font-family: 'Mission Gothic Light';
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.4em;
+        }
+
+        #email:-moz-placeholder { /* Firefox 18- */
+            font-size: 20px;
+            color: gray;
+            font-family: 'Mission Gothic Light';
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.4em;
+        }
+
+        #email {
+            font-size: 20px;
+            color: gray;
+            font-family: 'Mission Gothic Light';
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.4em;
+        }
+
+        .videoYouTubeFluid .videoYouTube img {
+            width: 85%;
+            margin: -14px;
+        }
+
+        .videoYouTubeFluid .videoYouTube {
+            margin-top: -16px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            /*background: #172934;*/
+            overflow: hidden;
+            border-top: 20px solid #b67633;
+        }
+
+        .quoteFluid .quoteContainer .blockquote {
+            /*font-family: 'Mission Gothic Bold';*/
+            /*font-weight: bold;*/
+            /*font-style: normal;*/
+            /*font-size: 3em !important;*/
+            /*line-height: 1em;*/
+            /*color: #b67633;*/
+            /*text-align: center;*/
+            /*position: relative;*/
+            /*z-index: 2;*/
+        }
+
+        .engagementFluid {
+            background-size: contain;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+
+        .fanExperienceFluid .fanExperienceContainer .fanInner .fanInnerTitle {
+            font-size: 20px;
+            font-family: 'Mission Gothic Bold';
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        .fanExperienceFluid .fanExperienceContainer .fanInner .fanInnerP p {
+            font-size: 18px;
+            font-family: 'Mission Gothic Light';
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .timeline-ball {
+            max-width: 85%;
+            padding: 50px;
+        }
+
+        .timeline-details {
+            padding: 50px;
+            font-size: 18px;
+            font-family: 'Mission Gothic Light';
+            font-weight: 300;
+            font-style: normal;
+            padding-left: 50px;
+            padding-right: 14px;
+            margin-left: 10px;
+            margin-right: -12px;
+        }
+
+        .timelineTitle {
+            font-weight: bold;
+            font-family: 'Mission Gothic Bold';
+
+        }
+
+        .timelineInner {
+            font-weight: bold;
+
+        }
+
+        .saleMechanics {
+            color: #081119;;
+            padding-top: 15px;
+        }
+
+        .timelineFluid .timelineContainer .date {
+            font-size: 20px;
+            color: #b67633;
+            font-family: 'Mission Gothic Light';
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .timelineFluid .timelineContainer .inverted-steps-pane .price {
+            font-size: 18px;
+            padding-top: 0px;
+        }
+
+        .timelineFluid .timelineContainer .inverted-steps-pane .title {
+            font-size: 18px;
+        }
+
+        .timelineFluid {
+            padding-top: 40px;
+            padding-bottom: 60px;
+            background: #f6f6f6;
+            display: none;
+        }
+
+        .engagementFluid .engagementContainer .engagement p {
+            padding-bottom: 30px;
+            font-family: 'Mission Gothic Light';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 22px;
+            color: #b67633;
+        }
+
+        .architectureFluid .h2 {
+            color: #081119;
+            text-align: center;
+        }
+
+        .engagementFluid .engagementContainer .engagement .h2 {
+            /*color: #416378;*/
+            padding-bottom: 20px;
+            font-family: 'Mission Gothic Bold';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 50px;
+            line-height: 1.2em;
+            text-transform: uppercase;
+        }
+
+        .faqsContainer p, .faqsContainer span {
+            font-family: 'Mission Gothic Light';
+            font-size: 16px;
+        }
+
+        .toggle .toggle-title .title-name {
+            display: block;
+            padding: 19px 22px 13px;
+            padding-right: 45px;
+            line-height: 1.3em;
+            font-family: 'Mission Gothic Regular';
+        }
+
+        .teamFluid .teamContainer .bioOpenBtn {
+            opacity: 0;
+            background: #b67633e3;
+            padding: 0px;
+            font-size: 21px;
+            border: none;
+            font-family: 'Heroic Condensed Bold';
+            font-weight: bold;
+            font-style: normal;
+            color: #ffffff;
+            padding-bottom: 0px;
+            padding: 3px;
+            padding-top: 5px;
+            /* margin-top: 8px; */
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            bottom: 125px;
+            border-radius: 50%;
+            left: 67px;
+            /* margin-left: -19px; */
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: -5px 8px 18px -5px rgba(18, 31, 39, 0.56);
+            transition: all 0.3s;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <!-- headerWrap start -->
+    <div class="headerWrap">
+        <div class="headerFluid">
+
+            <div class="leftHeader">
+                <div class="logo">
+                    <a href="#"> <img src="lp-assets/img/logoImg.png" alt="Logo" class="logoImg"></a>
+                </div>
+            </div>
+
+            <div class="rightHeader">
+                <!-- Navigation start -->
+                <nav id="navMenu" class="navMenu">
+                    <!-- Close nav on Mobile devices -->
+                    <span class="closeBtnMenu" id="closeBtnMenu">&times;</span>
+                    <ul class="ulNav text-center">
+
+                        <li><a href="#loyalFan">Fan Experience</a></li>
+                        <li><a href="#pressRelease">LFE News</a></li>
+                        <li><a href="#ourTeam">Our Team</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <!--<li class="scrollSection"><a href="#throughFluid" class="getAccessHeaderBtn">Get Access</a></li>-->
+                        <!--<li><a href="#" class="top-cta-btn">GET ACCESS</a></li>-->
+                    </ul>
+                </nav>
+                <!-- Open nav on Mobile devices -->
+                <span id="openNav" class="openNav">&#9776;</span>
+                <!-- Navigation end -->
+
+                <div class="scrollSection"><a href="#throughFluid" class="getAccessHeaderBtn">Get Access</a></div>
+
+
+                <!--<select class="selectpicker selectLanguageHeader" data-width="fit">-->
+                <!--<option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>-->
+                <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-ru"></span> Russian'>Russian</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-cn"></span> Mandarin'>Mandarin</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-kp"></span> Korea'>Korea</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-de"></span> Germany'>Germany</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-es "></span> Spanish'>Spanish</option>&ndash;&gt;-->
+                <!--</select>-->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- headerWrap end -->
+</header>
+
+<!-- Main start -->
+<main class="main">
+
+    <div class="container-fluid throughFluid" id="throughFluid">
+        <div class="container throughContainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timer">
+                        <p class="discount">40% Pre-Sale Discounts End In</p>
+
+                        <div id="clockdiv">
+
+
+                            <div class="innerWrap">
+                                <div class="daysWrap">
+                                    <span class="days"></span>
+                                    <div class="smalltext">Days</div>
+                                </div>
+                                <div>
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Hours</div>
+                                </div>
+                            </div>
+
+                            <div class="innerWrap">
+
+                                <div class="minutesWrap">
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutes</div>
+                                </div>
+                                <div>
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Seconds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h1 class="h1 wow fadeInDown">
+                        Democratising Football Through The Blockchain
+                    </h1>
+                    <form action="" class="form">
+                        <input type="email" name="email" class="email" id="email" placeholder="Enter your email"
+                               required minlength="5">
+                        <button type="submit" class="submitBtn">GET ACCESS</button>
+                    </form>
+
+
+                    <!--<form action="https://formspree.io/pbiloshytskyi@gmail.com" method="POST" class="contact_form" novalidate target="_blank">-->
+
+                    <!--<span class="color_element">*</span>Your name:-->
+                    <!--<input type="text" name="name" placeholder="Your name" data-validation-required-message="Enter your name" required>-->
+                    <!--<span class="help-block text-danger"></span>-->
+
+
+                    <!--<span class="color_element">*</span>Your e-mail:-->
+                    <!--<input type="email" name="email" placeholder="Your e-mail" data-validation-required-message="Enter your e-mail" required>-->
+                    <!--<span class="help-block text-danger"></span>-->
+
+
+                    <!--<label class="form-group">-->
+                    <!--<span class="color_element">*</span>Your message:-->
+                    <!--<textarea name="message" placeholder="Your message" data-validation-required-message="Enter your message" required></textarea>-->
+                    <!--<span class="help-block text-danger"></span>-->
+                    <!--</label>-->
+
+                    <!--<button>Submit</button>-->
+                    <!--</form>-->
+
+                    <!--<label class="form-group">-->
+                    <!--<span class="color_element">*</span>Your e-mail:-->
+                    <!--<input type="email" name="email" placeholder="Your e-mail" data-validation-required-message="Enter your e-mail" required>-->
+                    <!--<span class="help-block text-danger"></span>-->
+                    <!--</label>-->
+
+
+                    <p class="desc wow fadeInUp">Join the Whitelist to Get Early Access to Our Initial Token Offering
+                        (ITO) <span>and Download Our White Paper</span>
+                    </p>
+
+                    <div class=" applyAccessWrap"><a href="https://lfe.com/presale-form.html" class="applyAccess">Apply
+                        For Presale Access</a></div>
+
+
+                    <div class="socialLinksWrap">
+                        <div class="followSection">
+                            <p class="linksTitle">Follow us on</p>
+                            <ul class="socialIcons">
+                                <li><a href="https://www.facebook.com/LFEexchange" target="_blank"><i
+                                        class="fa fa-facebook"
+                                        aria-hidden="true"></i></a>
+                                </li>
+
+                                <li><a href="https://twitter.com/LFEMarket" target="_blank"><i class="fa fa-twitter"
+                                                                                               aria-hidden="true"></i>
+                                </a></li>
+                                <li><a href="https://www.instagram.com/ldnfe/" target="_blank"><i
+                                        class="fa fa-instagram"
+                                        aria-hidden="true"></i></a>
+                                </li>
+
+                                <li><a href="https://plus.google.com/u/1/115466717779293445982" target="_blank"><i
+                                        class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCq9Ah6Z6deQ_6Ti7Bk_zJKA"
+                                       target="_blank"><i
+                                        class="fa fa-youtube" aria-hidden="true"></i></a></li>
+
+                                <li><a href="https://vimeo.com/lfemarket"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="joinSection">
+                            <p class="linksTitle">Join </p>
+                            <ul class="socialIcons">
+                                <li><a href="https://www.linkedin.com/groups/12090324" target="_blank"><i
+                                        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                                <li><a href="https://discordapp.com/invite/6QMjBgr" target="_blank">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+                                    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                    <svg class="discordIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="714.286px" height="816.326px" viewBox="142.857 91.837 714.286 816.326"
+	 enable-background="new 142.857 91.837 714.286 816.326" xml:space="preserve">
+<path class="discordInner"  fill="#FFFFFF" d="M426.122,434.286c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306
+	c23.265,0,41.633-20.408,41.633-45.306C468.163,454.694,449.388,434.286,426.122,434.286z M575.102,434.286
+	c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306c23.265,0,41.633-20.408,41.633-45.306
+	S598.367,434.286,575.102,434.286z"/>
+<path class="discordInner" fill="#FFFFFF" d="M773.469,91.837H226.531c-46.122,0-83.673,37.551-83.673,84.082v551.837
+	c0,46.531,37.551,84.082,83.673,84.082h462.857l-21.633-75.51L720,784.898l49.388,45.714l87.755,77.551V175.918
+	C857.143,129.388,819.592,91.837,773.469,91.837z M615.918,624.898c0,0-14.694-17.551-26.939-33.061
+	c53.469-15.102,73.878-48.571,73.878-48.571c-16.735,11.02-32.653,18.776-46.939,24.082c-20.408,8.571-40,14.286-59.184,17.551
+	c-39.184,7.347-75.102,5.306-105.714-0.408c-23.265-4.49-43.265-11.02-60-17.551c-9.388-3.673-19.592-8.163-29.796-13.878
+	c-1.224-0.816-2.449-1.224-3.673-2.041c-0.816-0.408-1.225-0.816-1.633-1.225c-7.347-4.082-11.429-6.939-11.429-6.939
+	s19.592,32.653,71.429,48.163c-12.245,15.51-27.347,33.878-27.347,33.878c-90.204-2.857-124.49-62.041-124.49-62.041
+	c0-131.429,58.776-237.959,58.776-237.959c58.776-44.082,114.694-42.857,114.694-42.857l4.082,4.898
+	c-73.469,21.224-107.347,53.469-107.347,53.469s8.98-4.898,24.082-11.837c43.673-19.184,78.367-24.49,92.653-25.714
+	c2.449-0.408,4.49-0.816,6.939-0.816c24.898-3.265,53.061-4.082,82.449-0.816c38.776,4.49,80.408,15.918,122.857,39.184
+	c0,0-32.245-30.612-101.633-51.837l5.714-6.531c0,0,55.918-1.225,114.694,42.857c0,0,58.776,106.531,58.776,237.959
+	C740.816,562.857,706.122,622.041,615.918,624.898z"/>
+</svg>
+
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="contactSection">
+                            <p class="linksTitle">Contact</p>
+
+                            <ul class="socialIcons">
+                                <li><a href="mailto:support@lfe.com" target="_blank"><i class="fa fa-envelope"
+                                                                                        aria-hidden="true"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--videoYouTubeFluid section start-->
+    <div class="videoYouTubeFluid">
+        <div class="videoYouTube">
+            <img src="lp-assets/img/3D-1.png" alt="">
+            <a href="https://vimeo.com/251370019">Play</a>
+
+        </div>
+    </div>
+    <!--videoYouTubeFluid section end-->
+
+
+    <!--<div class="  container-fluid lfeIsFluid">-->
+    <!--<div class="container lfeIsContainer">-->
+    <!--<h2 class="h2 text-center">What LFE is</h2>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class=" howItWorksFluid container-fluid">-->
+    <!--<div class="container howItWorksContainer">-->
+    <!--<div class="howItWorks">-->
+    <!--<h2 class="h2">How It Works</h2>-->
+
+    <!--<div class="row">-->
+
+    <!--<div class="col-md-4">-->
+    <!--<p class="marketPlace">The Process</p>-->
+
+    <!--<ul class="ul">-->
+
+    <!--<li>Sign up for early access to the ITO</li>-->
+    <!--<li>Refer friends to receive special offers & LFE Tokens</li>-->
+    <!--&lt;!&ndash;<li>Buy Your Tokens When We Launch Private Pre-Sale</li>&ndash;&gt;-->
+    <!--<li>Buy your LFE Tokens when the ITO launches</li>-->
+    <!--&lt;!&ndash;<li>Exchange LFE Tokens for Ownership, Products, & Exclusive fan experiences on the LFE&ndash;&gt;-->
+    <!--&lt;!&ndash;Marketplace&ndash;&gt;-->
+    <!--&lt;!&ndash;</li>&ndash;&gt;-->
+    <!--<li>Once active, LFE exchange will enable exchange of tokens for goods &-->
+    <!--services available on the LFE Market Place-->
+    <!--</li>-->
+
+    <!--</ul>-->
+
+    <!--</div>-->
+
+    <!--<div class="col-md-4">-->
+    <!--<div class="center-block ticketWrap">-->
+    <!--&lt;!&ndash;<img src="lp-assets/img/LFE_Ticket.png" alt="LFE_Ticket"  class="img-responsive tickets" >&ndash;&gt;-->
+    <!--<img src="lp-assets/img/LFE-Paycard.png" alt="LFE_Ticket" class="img-responsive cardPay">-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="col-md-4">-->
+    <!--<p class="marketPlace">LFE Market</p>-->
+
+    <!--<ul class="ul marketUl">-->
+    <!--<li>-->
+    <!--LFE Tokens can be traded for Fan Ownership in participating clubs-->
+    <!--</li>-->
+    <!--<li>On-Pitch Experiences</li>-->
+    <!--&lt;!&ndash;<li> Off-Pitch experiences</li>&ndash;&gt;-->
+    <!--<li>LFE Digital Wallet</li>-->
+    <!--<li>LFE Pay & LFE Points</li>-->
+    <!--<li> LFE Tickets & VIP Access</li>-->
+    <!--<li>Exclusive LFE Club Packages</li>-->
+    <!--<li> LFE Gear</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+
+
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="scrollSection downloadPaperBtnWrap"><a href="#throughFluid" class="downloadPaperBtn">Download-->
+    <!--our white paper</a></div>-->
+
+
+    <!--&lt;!&ndash;<select class="selectpicker selectFile" data-width="fit">&ndash;&gt;-->
+    <!--&lt;!&ndash;<option data-skip="1" selected="selected">Download our white paper</option>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-ru"></span> Russian (coming soon)'>Russian</option>&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-cn"></span> Mandarin (coming soon)'>Mandarin</option>&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-kp"></span> Korea (coming soon)'>Korea</option>&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-de"></span> Germany (coming soon)'>Germany</option>&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;<option data-content='<span class="flag-icon flag-icon-es "></span> Spanish (coming soon)'>Spanish</option>&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;</select>&ndash;&gt;-->
+
+
+    <!--</div>-->
+
+    <!--<div class="tickets">-->
+    <!--<div>-->
+    <!--<img src="lp-assets/img/ticket2.png" alt="ticket" class="ticket2 img-responsive"></div>-->
+    <!--<div><img src="lp-assets/img/ticket1.png" alt="ticket" class="ticket1 img-responsive"></div>-->
+    <!--<div><img src="lp-assets/img/card.png" alt="ticket" class="card img-responsive"></div>-->
+    <!--</div>-->
+
+    <!--</div>-->
+    <!--</div>-->
+
+    <div class="container-fluid quoteFluid">
+        <div class="container quoteContainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrap">
+                        <blockquote class="blockquote">Football is nothing without fans.</blockquote>
+                        <p class="by">- Jock Stein</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid engagementFluid">
+        <div class=" engagementContainer">
+            <div class="engagement">
+                <h2 class="h2">Revolutionizing the<br>
+                    Loyal Fan Experience</h2>
+                <p>The London Football Exchange is a global movement to create the ultimate sport community where fans
+                    partake in exclusive club and fan experiences</p>
+            </div>
+
+            <div class="mobileImg"><img src="lp-assets/img/3D-1.png" alt="3d" class="img-responsive"></div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid fanExperienceFluid" id="loyalFan">
+        <h2 class="h2 text-center">
+            THE LOYAL FAN EXPERIENCE
+        </h2>
+        <div class="hr"></div>
+        <div class="container fanExperienceContainer">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="desc">
+                        The London Football Exchange is a global movement to create the ultimate sport community <span> where fans partake in exclusive club and fan experiences</span>
+                    </p>
+                    <img src="lp-assets/img/GRAPHIC.png" alt="Fan Experience"
+                         class="grafic img-responsive">
+                </div>
+
+
+            </div>
+
+
+            <div class="fanExperience">
+                <div class="fanWrap fanWrapLeft">
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Wallet.png" alt="Wallet">
+                        </div>
+
+
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE WALLET
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Secure crypto-wallet to manage <span>LFE services, tokens, tickets, & exchange account</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Payments.png" alt="Payments">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE PAYMENTS
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Pay everywhere with fiat currencies & LFE tokens <span>online & at participating local LFE retail locations</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Points.png" alt="Points">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE POINTS
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Earn & redeem LFE tokens, <span>points & offers for being a loyal fan</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Events.png" alt="Events">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE EVENTS
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Exclusive events & VIP access <span>to clubs, players, & special events</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fanWrap fanWrapRight">
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Access.png" alt="Access">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE ACCESS
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Exclusive LFE player, club, &
+                                    <span>venue access, ticketing & special LFE seating</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Exchange-&-Mobile-App.png" alt="Exchange">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE EXCHANGE & MOBILE APP
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    Buy, sell & trade LFE tokens. Access
+                                    <span>exclusive LFE services & premium content</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Club-Packages.png" alt="Club-Packages">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE Club PACKAGES
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    LFE destination travel packages <span>& exclusive offers from your favourite LFE club</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fanInner">
+                        <div class="fanImg">
+                            <img src="lp-assets/img/fan/LFE-Gear.png" alt="Gear">
+                        </div>
+                        <div class="fanDesc">
+                            <div class="fanInnerTitle">
+                                LFE Gear
+                            </div>
+                            <div class="fanInnerP">
+                                <p>
+                                    LFE gear showcasing your favourite
+                                    <span>player, club, & league everywhere you go</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--<div class="row">-->
+
+        <!--<h2 class="saleMechanics h2 text-center">-->
+            <!--LFE TOKEN SALE-->
+        <!--</h2>-->
+
+        <!--<div class="hr tokenSale"></div>-->
+
+        <!--<div class="col-md-3 timeline-details">-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Token Name-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>LFE</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<br>-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Total Tokens-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>4,000,000,000</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<br>-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Tokens to be Sold via ITO-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>2,400,000,000</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<br>-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Timelines-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>Pre-Sales <br> &#8729; 15 January 2018 to 11 February 2018</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>Public Crowd Sale <br> &#8729; 12 February 2018 to 20 May 2018</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<br>-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Token Sale Structure-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+
+
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>$0.12 Pre-Sales</li>-->
+                        <!--<li> &#8729; $100,000 USD minimum</li>-->
+                        <!--<li> &#8729; Crypto Only</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>$0.14 Early Backers</li>-->
+                        <!--<li> &#8729; $10,000 USD minimum</li>-->
+                        <!--<li> &#8729; Crypto + Fiat Currency</li>-->
+                        <!--<li>$0.16 Pre-ITO</li>-->
+                        <!--<li>$0.18 ITO Release 1</li>-->
+                        <!--<li>$0.19 ITO Release 2</li>-->
+                        <!--<li>$0.20 ITO Release 3</li>-->
+
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+        <!--</div>-->
+
+        <!--<div class="col-md-3 timeline-details">-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Fundraising Goal-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>Approximately $350,000,000 USD</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<br>-->
+
+            <!--<div class="fanDesc">-->
+                <!--<div class="timelineTitle">-->
+                    <!--Currencies Accepted-->
+                <!--</div>-->
+                <!--<div class="timelineInner">-->
+                    <!--<p>-->
+                    <!--<ul>-->
+                        <!--<li>Bitcoin (BTC), Ethereum (ETH), Ripple XRP), bank transfers supporting fiat currencies, GBP,-->
+                            <!--EUR, USD, AUD, and CHF.-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                    <!--</p>-->
+
+
+                    <!--<br>-->
+
+
+                    <!--<p>-->
+                        <!--&lt;!&ndash;<ul><li>The pre-ITO round will function as a way to profile public interest in the project potential and obtain further community feedback, while providing an early opportunity to loyal contributors to join in prior to the full ITO rounds. Upon Pre-ITO closure, the ITO will start on the date provided. Each round of the ITO will have a maximum duration as defined in the table, closing the moment the tokens are sold out and with the next round beginning immediately afterward. &ndash;&gt;-->
+
+                        <!--<br><br>-->
+                        <!--With regard to token issue, the LFE Tokens will be issued to the LFE Contributors approximately-->
+                        <!--six weeks after the closure of the ITO.-->
+                    <!--</p>-->
+
+                <!--</div>-->
+            <!--</div>-->
+
+
+        <!--</div>-->
+
+        <!--<div class="col-md-6">-->
+            <!--<img class="timeline-ball" src="lp-assets/img/LFE-timeline-ball.png"/>-->
+        <!--</div>-->
+
+
+    <!--</div>-->
+
+
+    <div class="container-fluid timelineFluid">
+
+        <div class=" timelineContainer">
+
+            <h2 class="h2">LFE ITO TIMELINE</h2>
+            <div class="steps-timeline text-center">
+                <div class="steps-one">
+                    <h3 class="date">15/1/2018 to <span>11/2/2018</span></h3>
+                    <!--<h3 class="title">PRE-SALES</h3>-->
+                    <!--<div class="end-circle back-orange"></div>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/money2.svg">
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+                            <p class="title">HNW/Pre-Sale </p>
+                            <p class="price">$0.12</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="steps-two">
+                    <h3 class="date">12/2/2018 to <span>25/2/2018</span></h3>
+                    <!--<h3 class="title">EARLY BACKERS</h3>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp  back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/money.svg">
+
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+
+
+                            <p class="title"> Early Backers </p>
+                            <p class="price">$0.14</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="steps-three">
+                    <h3 class="date">26/2/2018 to <span>18/3/2018</span></h3>
+                    <!--<h3 class="title">PRE-ITO</h3>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/transfer-money.svg">
+
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+                            <p class="title"> Pre-ITO </p>
+                            <p class="price">$0.16</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="steps-four">
+                    <h3 class="date">19/3/2018 to <span>8/4/2018</span></h3>
+                    <!--<h3 class="title">PRE-ITO</h3>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/money3.svg">
+
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+                            <p class="title"> ITO Round 1 </p>
+                            <p class="price">$0.18</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="steps-five">
+                    <h3 class="date"> 9/4/2018 to <span>28/4/2018</span></h3>
+                    <!--<h3 class="title">PRE-ITO</h3>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/bank-account.svg">
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+                            <p class="title"> ITO Round 2 </p>
+                            <p class="price">$0.19</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="steps-three">
+                    <h3 class="date"> 29/4/2018 to <span> 20/5/2018</span></h3>
+                    <!--<h3 class="title">PRE-ITO</h3>-->
+                    <div class="step-wrap">
+                        <div class="steps-stops">
+                            <div class="verticle-line back-orange"></div>
+                        </div>
+                    </div>
+                    <div class="pane-warp back-blue">
+                        <div class="steps-pane">
+                            <img src="lp-assets/img/TimeLine/graph.svg">
+                        </div>
+                    </div>
+                    <div class="inverted-pane-warp back-blue">
+                        <div class="inverted-steps-pane">
+                            <p class="title"> ITO Round 3 </p>
+                            <p class="price">$0.20</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- /.steps-timeline -->
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid soccerBallFluid">
+        <div class="container">
+            <div class="row">
+
+                <h2 class="saleMechanics h2 text-center">
+                    LFE TOKEN SALE
+                </h2>
+
+                <div class="hr tokenSale"></div>
+
+                <div class="col-sm-6 col-md-3 timeline-details">
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Token Name
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>LFE</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Total Tokens
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>4,000,000,000</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Tokens to be Sold via ITO
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>2,400,000,000</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Timelines
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>  <span>Pre-Sales</span> &#8729;15 January 2018 to 11 February 2018</li>
+                            </ul>
+                            </p>
+                            <p>
+                            <ul>
+                                <li><span>Public Crowd Sale</span>  &#8729; 12 February 2018 to 20 May 2018</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Token Sale Structure
+                        </div>
+                        <div class="timelineInner">
+
+
+                            <p>
+                            <ul>
+                                <li>$0.12 Pre-Sales</li>
+                                <li> &#8729; $100,000 USD minimum</li>
+                                <li> &#8729; Crypto Only</li>
+                            </ul>
+                            </p>
+                            <p>
+                            <ul>
+                                <li>$0.14 Early Backers</li>
+                                <li> &#8729; $10,000 USD minimum</li>
+                                <li> &#8729; Crypto + Fiat Currency</li>
+                                <li>$0.16 Pre-ITO</li>
+                                <li>$0.18 ITO Release 1</li>
+                                <li>$0.19 ITO Release 2</li>
+                                <li>$0.20 ITO Release 3</li>
+
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 timeline-details">
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Fundraising Goal
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>Approximately $350,000,000 USD</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fanDesc">
+                        <div class="timelineTitle">
+                            Currencies Accepted
+                        </div>
+                        <div class="timelineInner">
+                            <p>
+                            <ul>
+                                <li>Bitcoin (BTC), Ethereum (ETH), Ripple XRP), bank transfers supporting fiat currencies, GBP,
+                                    EUR, USD, AUD, and CHF.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fanDesc">
+                        <div class="timeLineTitle">
+                            <p>
+                                <!--<ul><li>The pre-ITO round will function as a way to profile public interest in the project potential and obtain further community feedback, while providing an early opportunity to loyal contributors to join in prior to the full ITO rounds. Upon Pre-ITO closure, the ITO will start on the date provided. Each round of the ITO will have a maximum duration as defined in the table, closing the moment the tokens are sold out and with the next round beginning immediately afterward. -->
+
+                                The LFE Tokens will be issued to the LFE Contributors approximately
+                                six weeks after the closure of the ITO.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="timeline-ball">
+                        <div class='hexcontainer'>
+                            <div class='hexbox'>
+                                <div class='hexagon hex_1'>
+                                    <div class="innerTop">Pre - Sales</div>
+                                    <div class="innerMiddle">15.01.18 - 11.02.18</div>
+                                    <div class="innerBottom">$0.12</div>
+                                </div>
+                                <div class='hexagon hex_2'>
+
+                                    <div class="innerTop">Early Backers</div>
+                                    <div class="innerMiddle">12.02.18 - 25.02.18</div>
+                                    <div class="innerBottom">$0.14</div>
+                                </div>
+                                <div class='hexagon hex_3 hexagonEmpty'>
+                                    <img src="lp-assets/img/Logos/logoLFE.svg" alt="logoLFE" class="logoBall">
+                                </div>
+                                <div class='hexagon hex_4'>
+                                    <div class="innerTop">PRE - ITO</div>
+                                    <div class="innerMiddle">26.02.18 - 18.02.18</div>
+                                    <div class="innerBottom">$0.16</div>
+                                </div>
+                                <div class='hexagon hex_5'>
+                                    <div class="innerTop">ITO - R2</div>
+                                    <div class="innerMiddle">09.04.18 - 28.04.18</div>
+                                    <div class="innerBottom">$0.19</div>
+                                </div>
+                                <div class='hexagon hex_6'>
+                                    <div class="innerTop">ITO - R3</div>
+                                    <div class="innerMiddle">29.04.18 - 20.05.18</div>
+                                    <div class="innerBottom">$0.20</div>
+                                </div>
+                                <div class='hexagon hex_7'>
+                                    <div class="innerTop">OTO - R1</div>
+                                    <div class="innerMiddle">19.03.18 - 08.04.18</div>
+                                    <div class="innerBottom">$0.18</div>
+                                </div>
+
+                                <div class='hexagon hex_8 hexagonEmpty'>
+                                    <!--<div class="innerText">HNW/Pre-Sale</div>-->
+                                    <!--<div class="innerText">15/1/2018 to 11/2/2018</div>-->
+                                </div>
+                                <div class='hexagon hex_9 hexagonEmpty'>
+                                    <!--<div class="innerText">HNW/Pre-Sale</div>-->
+                                    <!--<div class="innerText">15/1/2018 to 11/2/2018</div>-->
+                                </div>
+                                <div class='hexagon hex_10 hexagonEmpty'>
+                                    <!--<div class="innerText">HNW/Pre-Sale</div>-->
+                                    <!--<div class="innerText">15/1/2018 to 11/2/2018</div>-->
+                                </div>
+
+                                <div class='hexagon hex_11 hexagonEmpty'>
+                                    <!--<div class="innerText">HNW/Pre-Sale</div>-->
+                                    <!--<div class="innerText">15/1/2018 to 11/2/2018</div>-->
+                                </div>
+                                <div class='hexagon hex_12 hexagonEmpty'>
+                                    <!--<div class="innerText">HNW/Pre-Sale</div>-->
+                                    <!--<div class="innerText">15/1/2018 to 11/2/2018</div>-->
+                                </div>
+                                <div class='hexagon hex_13 hexagonEmpty'>
+                                    <!--<div class="innerText">15/1/</div>-->
+                                    <!--<div class="innerText">HNW/P2018 to 11/2/2018</div>-->
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid roadMapFluid">
+
+        <div class="container roadMapContainer">
+            <div class="h2">LFE ROADMAP</div>
+
+
+            <!--<div class="row">-->
+            <!--<div class="col-md-6">-->
+            <!--<p class="nameMap"> TECHNICAL </p>-->
+            <!--</div>-->
+            <!--<div class="col-md-6">-->
+            <!--<p class="nameMap">COMMERCIAL</p>-->
+
+            <!--</div>-->
+            <!--</div>-->
+
+
+            <!-- Vertical Timeline -->
+            <section id="conference-timeline">
+                <!--<div class="timeline-start">Start</div>-->
+
+
+                <div class="conference-center-line"></div>
+                <div class="conference-timeline-content ">
+
+                    <!-- Article  FIRST -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left content-title">
+                                <p class="nameMap technicalName"> TECHNICAL </p>
+                                <!--<p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span class="article-number">01</span></p>-->
+                            </div>
+
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="content-right-container">
+                            <div class="content-right content-title">
+                                <p class="nameMap">COMMERCIAL</p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date hidden">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+                    </div>
+                    <!-- // Article  -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q3 - 4 2015</p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+                        <div class="content-right-container">
+                            <div class="content-right">
+                                <p> Market research and R&D in Colombia, Brasil, Venezuela, Argentina, Peru,
+                                    Ecuador, Panama, Bolivia, Chile, Mexico.</p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q1 – Q2 2016
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+                        <div class="content-right-container">
+                            <div class="content-right">
+                                <p> Market research and R&D in Singapore, Malaysia, Cambodia, Vietnam,
+                                    Thailand, Philippines, Indonesia, Hong Kong, Japan, South Korea, Burma,
+                                    Taiwan.</p>
+                                <p> Company admin infrastructure investigation Philippines BPO industry.
+                                </p>
+                                <p> Legal formation of group companies</p>
+                            </div>
+
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q3 - Q4 2016
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+                                <p> EU and UK business development, market research, regulatory investigation
+                                </p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q1 2017
+
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+                                <p> Legal formation of specific entities
+                                </p>
+                                <p> Regulatory investigation
+                                </p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q2 2017
+
+
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+                                <p>Football Finance industry dialogue, education (outreach with universities)
+                                </p>
+                                <p>Dialogue with Football Finance Directors UK, France, Spain
+                                </p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate">Q3 2017
+
+
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+                                <p>Specific entity formed: LFE MARKET incorporation
+
+                                </p>
+                                <p>Staffing and future ambassador dialogue
+                                </p>
+                                <p>Continued regulatory investigation</p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+                                <p class="currentDate">Q4 2017
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+                                <p> Multiple Football Club agreements in principle
+                                </p>
+                                <p> Regulatory sign off
+                                </p>
+                                <p> Staffing pan EU, USA, UK. </p>
+                                <p> Appointment of Law firm CMS Cameron McKenna Nabarro Olswang LLP </p>
+                            </div>
+
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+                    <!--Technical start-->
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+                                <p> LFE Enrollment Platform </p>
+                                <p> LFE Initial Token Offering (ITO)</p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+
+                                <p class="currentDate currentDateRight">Q1 2018
+                                </p>
+                            </div>
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+                                <p class="currentDate ">Q2 2018
+                                </p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>    <div class="meta-date">
+                        <!--<span class="date">18</span>-->
+                        <!--<span class="month">APR</span>-->
+                    </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+
+                                <p> LFE Payment Demonstration
+                                </p>
+                                <p>LFE ITO Completion
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+                                <p> LFE Token Issuance
+                                </p>
+                                <p> LFE Marketplace Alpha
+                                </p>
+                                <p> LFE Club Token issuance #1</p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+                                <p class="currentDate currentDateRight">Q3 2018
+                                </p>
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+
+                                <p class="currentDate ">Q4 2018</p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+                                <p>LFE Points Demonstration
+                                </p>
+                                <p> LFE Ticketing Demonstration
+                                </p>
+                                <p> Additional LFE Club Token Issuances</p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+                                <p>LFE Exchange Opens
+                                </p>
+                                <p>LFE Dashboard
+                                </p>
+                                <p>LFE Pay Debit Card</p>
+                                <p>LFE POS Merchant API</p>
+                                <p>Regulatory Approval LFE Exchange</p>
+
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+
+
+                                <p class="currentDate currentDateRight">Q1 2019
+
+                                </p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+                    <!-- Article -->
+                    <div class="timeline-article">
+                        <div class="content-left-container">
+
+                            <div class="content-left">
+
+
+                                <p class="currentDate currentDateTechnical">Q2 2019
+
+                                </p>
+
+                            </div>
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+                        <div class="meta-date">
+                            <!--<span class="date">18</span>-->
+                            <!--<span class="month">APR</span>-->
+                        </div>
+
+                        <div class="content-right-container">
+                            <div class="content-right">
+                                <!-- -->
+                                <p>LFE Experience Expansion
+                                </p>
+                                <p>LFE POS Services
+
+                                </p>
+
+                            </div>
+
+
+                            <span class="timeline-author">John Doe</span>
+                        </div>
+
+                    </div>
+                    <!-- // Article -->
+
+
+                    <!--Technical end-->
+
+
+                </div>
+                <div class="timeline-end">End</div>
+            </section>
+            <!-- // Vertical Timeline -->
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid architectureFluid">
+
+        <h2 class="saleMechanics h2 text-center">
+            LFE EXCHANGE ARCHITECTURE </h2>
+
+        <div class="hr tokenSale"></div>
+
+        <img src="lp-assets/img/architecture/Roadmap%20Transparent.png" alt="architecture" class="img-responsive">
+
+        <br>
+
+
+    </div>
+
+
+    <div class="container-fluid demoVideoFluid">
+        <div class="container demoVideoContainer">
+
+            <div class="col-md-12" style="text-align: center;">
+
+                <h2 class="h2">LFE Exchange Demo</h2>
+                <div class="videoDesc">
+                    <iframe src="https://player.vimeo.com/video/253731240?color=b67633&title=0&byline=0&portrait=0"
+                            width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid pressReleaseFLuid" id="pressRelease">
+        <div class="container pressReleaseContainer">
+            <h2 class="h2">In the News</h2>
+
+
+            <div class="row">
+                <div class="col-md-4 wrapNews">
+
+                    <a href="https://www.forbes.com/sites/rogeraitken/2018/01/29/exchange-launching-soccer-related-cryptocurrency-in-world-first-using-ripple-network/#6ec658676da2"
+                       target="_blank">
+                        <div class="img">
+                            <img src="lp-assets/img/News/news2.png" alt="News"
+                                 class="img-responsive">
+                        </div>
+                    </a>
+                    <a href="https://www.forbes.com/sites/rogeraitken/2018/01/29/exchange-launching-soccer-related-cryptocurrency-in-world-first-using-ripple-network/#6ec658676da2"
+                       target="_blank">
+                        <h5 class="h5">Exchange Launching 'Soccer-Related' Cryptocurrency In World First Using Ripple
+                            Network</h5></a>
+                </div>
+
+
+                <div class="col-md-4 wrapNews">
+
+                    <a href="https://lfe.com/london-football-exchange-launch-the-worlds-first-football-related-cryptocurrency"
+                       target="_blank">
+                        <div class="img">
+                            <img src="https://lfe.com/wp-content/uploads/2018/01/social-banner.jpg" alt=""
+                                 class="img-responsive">
+                        </div>
+                    </a>
+                    <a href="https://lfe.com/london-football-exchange-launch-the-worlds-first-football-related-cryptocurrency"
+                       target="_blank">
+                        <h5 class="h5">London Football Exchange Launch The World’s First Football Related
+                            Cryptocurrency</h5></a>
+                </div>
+
+
+                <div class="col-md-4 wrapNews">
+
+
+                </div>
+
+
+                <!--<div class="col-md-4">-->
+                <!--<div class="img"></div>-->
+                <!--<h3 class="h3">Article</h3>-->
+                <!--</div>-->
+                <!--<div class="col-md-4">-->
+                <!--<div class="img"></div>-->
+                <!--<h3 class="h3">Article</h3>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- teamFluid start -->
+    <div class="container-fluid teamFluid" id="ourTeam">
+        <div class="container teamContainer">
+            <h2 class="h2">Our Team</h2>
+            <h3 class="h3">LFE ORGANISATION</h3>
+
+            <div class="organisationWrap">
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+                    <!--<button id="myBtn">Open Modal</button>-->
+                    <button class="bioOpenBtn" id="bio" data-bio="SCOTT SMITH">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+                    <button class="bioOpenBtn" data-bio="CHARLES PITTAR">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="ALEX CLERICY">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+
+                    <button class="bioOpenBtn" data-bio="BRUCE GRIFFIN">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="DANNY STROUD">bio</button>
+                </div>
+
+                <!--was -->
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="FLYNN KENNEDY">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="IRFAN BILIC">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+
+                    <button class="bioOpenBtn" data-bio="KUAN SUN">bio</button>
+
+                </div>
+
+
+            </div>
+
+            <!--</section>-->
+
+            <h3 class="h3">LFE ADVISORS</h3>
+
+            <!--<div class="sliderWrap"></div>-->
+            <!--<section class="regular slider">-->
+            <div class="organisationWrap">
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="BENJAMIN LEIGH-HUNT">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="JEREMY DRZAL">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-twitter circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="JON SMITH">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-twitter circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="DARRAGH MACANTHONY">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="KONSTANTINOS GHERTSOS">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="JIM AYLWARD">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+
+                    <button class="bioOpenBtn" data-bio="AXEL KRUEGER">bio</button>
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="EDWIN CARLSON">bio</button>
+                </div>
+
+
+            </div>
+            <!--</section>-->
+            <h3 class="h3">ITO ADVISORS</h3>
+            <div class="organisationWrap">
+                <div class="teamUser">
+                    <div class="imageWrap">
+
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="_blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="MINAZ SARANGI">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="KSHITISH BALHOTRA, MBA">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="DANIEL DONEY">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="JUSTIN HADGKISS">bio</button>
+
+                </div>
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="JOHN HENSEL">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="KATIE OLVER">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="SPENCER CRANE">bio</button>
+
+                </div>
+
+
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src="" alt="" class="">
+                        <a href="" target="blank"><i class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="HOUSTON GOLDEN">bio</button>
+
+                </div>
+
+
+            </div>
+
+
+            <h3 class="h3">ITO AMBASSADORS</h3>
+
+            <div class="organisationWrap">
+                <div class="teamUser">
+                    <div class="imageWrap">
+                        <img src=""
+                             alt="" class="">
+                        <a href="" target="_blank"><i
+                                class="fa fa-linkedin circle" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p class="nameSurname"></p>
+                    <p class="position"></p>
+
+                    <button class="bioOpenBtn" data-bio="NICK O'HERN">bio</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--<div class="container-fluid organisationFluid">-->
+        <!--<div class="container organisationContainer">-->
+        <!--<h2 class="h2">LFE Organisation Procurement Board</h2>-->
+
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+    <!-- teamFluid end -->
+
+    <div class="partnersFluid container-fluid">
+        <h2 class="h2">LFE Partners</h2>
+        <!--<div class="hr tokenSale"></div>-->
+        <div class="partnersContainer container">
+
+            <ul class="partnerSlider">
+                <li class="partner"><a target="blank" href="https://block512.com"><img
+                        src="lp-assets/img/Partners/Block512.png" alt="Block512"></a></li>
+                <li class="partner"><a target="blank" href="https://cms.law"><img
+                        src="lp-assets/img/Partners/CMS_law.png" alt="C.M.S"></a></li>
+                <li class="partner"><a target="blank" href=" http://cryptolandpr.com"><img
+                        src="lp-assets/img/Partners/Cryptoland-PR-Logo.png" alt="Cryptoland"></a></li>
+                <!--<li class="partner"><a target="blank" href="http://www.dqtsi.com/"><img-->
+                <!--src="lp-assets/img/Partners/DynaQuest%20Logo.jpg" alt="DUNAQUEST"></a></li>-->
+                <li class="partner"><a target="blank" href="http://www.rapsmanagement.com/"><img
+                        src="lp-assets/img/Partners/RAPSMgmt.png" alt="Raps Managment"></a></li>
+                <li class="partner"><a target="blank" href="http://securrency.com"><img
+                        src="lp-assets/img/Partners/Securrency%20Logo%20AI.png" alt="Securrency"></a></li>
+                <li class="partner"><a target="blank" href="http://www.starsdiscovery.com"><img
+                        src="lp-assets/img/Partners/starsdiscovery.png" alt="Start Discovery"></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid faqsContainerFluid">
+        <div class="container faqsContainer" id="faq">
+
+            <section>
+                <h4 class="h2"> LFE FAQs<span></span></h4>
+                <p class="frequently">Frequently Asked Questions </p>
+            </section>
+
+            <div class="row  ">
+
+                <div class="wrapperBox">
+
+                    <div class="col-md-6">
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">What is an LFE Token?</span>
+                                </h3>
+                            </div>
+                            <div class="toggle-inner">
+                                <p>The LFE Token is a utility Token which enables Token holders exclusive access to
+                                    football
+                                    related
+                                    services, merchandise, events or unique VIP experiences.
+                                </p>
+                            </div>
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">What is the difference between an LFE Token and Bitcoin?</span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>Bitcoin is an anonymous cryptocurrency which is mined. Whereas, the LFE Token is a
+                                    Crypto-token offered by the LFE Group to LFE contributors access to various football
+                                    related services and facilities and its utility is limited to use within the LFE
+                                    ecosystem.
+
+                                </p>
+                            </div>
+                        </div><!-- END OF TOGGLE -->
+
+                        <div class="toggle">
+                            <div class="toggle-title  ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">Is the LFE Token legal?
+</span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>Yes. This initiative is being operated under continuing guidance from our appointed
+                                    legal
+                                    advisers.
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title  ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">Where is the LFE enterprise located?
+</span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>The company is registered under the company name, LFE Market Ltd with a registered
+                                    office
+                                    address at,
+                                    3rd Floor, 207 Regent Street, London, W1B 3HH, United Kingdom.</p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name"> What is the process to purchase LFE Tokens?
+</span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>The process begins with online registration at www.lfe.com. You will then have to
+                                    complete a Know
+                                    Your Customer / Anti-Money Laundering (KYC/AML) process to verify that you are who
+                                    you
+                                    say you are
+                                    and that your participation is compliant with current global legal requirements.
+                                    Upon
+                                    successful
+                                    verification, you are able to purchase the LFE Tokens using either conventional FIAT
+                                    based
+                                    currencies (GBP, EUR, USD, AUD, CHF) or cryptocurrencies (BTC, ETH, XRP, XLM).
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name"> How do I purchase LFE Tokens?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    When the ITO opens (opening dates below) interested buyers from eligible countries
+                                    across the world
+                                    will be able to enroll and purchase the LFE Tokens using multiple payment options
+                                    via
+                                    www.lfe.com
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name"> How do I spend my LFE Tokens?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    Once you purchase your LFE Tokens and the Tokens have been deposited into your
+                                    account,
+                                    it is intended that you will then be provided with further instructions to view,
+                                    select
+                                    and access football related services, merchandise, events or unique VIP
+                                    experiences..
+                                    Please note that you will not be able to use the LFE Tokens until the platform is
+                                    fully
+                                    established and further information is set out in the White Paper.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+                        <div class="faqsHiddenDesktop ">
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">How do I purchase shares in the football club that I support?
+  </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        It is intended that you will be given preferential access to purchase shares in
+                                        participating clubs from your account. Further details will be made available.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Why is LFE on the blockchain?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        LFE was built on blockchain technology to leverage the inherent
+                                        self-administering
+                                        capabilities,
+                                        flexibility, accessibility and scalability.
+
+                                        A blockchain is a distributed public database that keeps a permanent record of
+                                        digital
+                                        transactions.
+                                        This distributed database is not controlled by a central administrator, but
+                                        instead
+                                        is a
+                                        network of
+                                        replicated databases (meaning each node in the network stores its own copy of
+                                        the
+                                        blockchain) that
+                                        is shared and visible to anyone within network. Every “block” in this blockchain
+                                        contains a record
+                                        of recent transactions, a reference to the block that came immediately before
+                                        it,
+                                        and an
+                                        answer to a
+                                        difficult mathematical puzzle, among other things. Thanks to this setup, anyone
+                                        can
+                                        own
+                                        and transfer
+                                        assets digitally without the need for a third party ensuring confidentiality,
+                                        compliance
+                                        and is
+                                        fundamentally more cost-effective than the conventional third-party
+                                        intermediaries
+                                        that
+                                        typically
+                                        provide these types of services.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> When will the ITO take place?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        Pre-Sale (a minimum of $10K USD contribution) is scheduled to start 15 January
+                                        2018
+                                        and
+                                        run through
+                                        to 11 February 2018, Early Backers (a minimum of $10K USD contribution) can
+                                        enroll
+                                        starting 12
+                                        February 2018 to 25 February 2018 and full ITO is scheduled to start 26 February
+                                        2018
+                                        and run
+                                        through to 20 May 2018.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> What is the advantage of participating in the ITO rather than just waiting until launch?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        An ITO process has similarities to other crowdsourcing mechanisms for raising
+                                        funds
+                                        and
+                                        as an
+                                        incentive, early adopters or participants are offered significant discounts for
+                                        participating early
+                                        on in the process. You can wait until the London Football Exchange is launched,
+                                        but
+                                        you
+                                        will not be
+                                        eligible for the discounts compared to those that participate in the ITO.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Can I make multiple deposits to the ITO? For instance, deposit 1 ETH today and then another 1 ETH next week?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        Yes. You can make as many deposits as you like as frequently as you like during
+                                        the
+                                        ITO.
+                                        You can
+                                        also use multiple wallets to make those purchases. Note that value of discounts
+                                        may
+                                        vary
+                                        over the
+                                        course of the ITO.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> When will I receive my LFE Tokens?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        LFE Tokens will be distributed when the LFE platform goes live, which is
+                                        approximately
+                                        six weeks
+                                        after the closure of the ITO. Please check the LFE.com website for exact dates
+                                        and
+                                        notifications
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Which digital currencies can I use?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        Digital currencies supported include Bitcoin (BTC), Ethereum (ETH), Ripple (XRP)
+                                        and
+                                        Stellar (XLM).
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> How will the ITO funds be spent?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        Marketing and Community Development (20%); Operations and Business Development
+                                        (25%);
+                                        Platform
+                                        Development (50%); Reserves (5%). See whitepaper for more details
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Who exactly am I contracting with?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        By purchasing a LFE token you are entering into a contract with the LFE
+                                        Exchange, a
+                                        company incorporated in England & Wales, The LFE Exchange intends to apply to
+                                        the
+                                        United
+                                        Kingdom financial services regulator, the Financial Conduct Authority (FCA) to
+                                        become
+                                        regulated to operate the LFE platform
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Who is issuing and sponsoring the product, what are their backgrounds, and have they provided a full and complete description of the product?  Do they have a clear written business plan that I understand?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        A comprehensive document, the LFE Whitepaper is available for download on the
+                                        LFE
+                                        web
+                                        site www.lfe.com. The whitepaper, describes in detail, the product concept and
+                                        plans
+                                        for
+                                        its development, and delivery as well as complete backgrounds on the core
+                                        members of
+                                        the
+                                        LFE management team and their advisors.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Who is promoting or marketing the product, what are their backgrounds, and are they licensed to sell the product?  Have they been paid to promote the product?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The promotion and marketing of the product is being conducted by a variety of
+                                        different
+                                        partner companies, as well as active involvement of the LFE management team. The
+                                        promotion and marketing of the product, the LFE token requires no specialist
+                                        licenses or
+                                        qualifications. Under certain situations a third party may be acting as a broker
+                                        in
+                                        the
+                                        transaction, in which case they have been vetted by LFE and have demonstrated
+                                        that
+                                        they
+                                        have the necessary qualifications and licenses to conduct business in the area
+                                        or
+                                        country concerned.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Where is my money going and what will be it be used for?  Is my money going to be used to “cash out” others?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The contributions made to the LFE through the purchase of tokens will be used to
+                                        take
+                                        the initial minimal viable product (MVP) through a documented development
+                                        process to
+                                        deliver the full LFE Exchange capabilities described in the LFE whitepaper
+                                        (insert
+                                        link
+                                        to whitepaper). Part of the funds raised will be used to cover the costs of
+                                        setting
+                                        up
+                                        the LFE organization, the marketing and business development activities
+                                        associated
+                                        with
+                                        the ITO and legal insight, review and resources to set up appropriate legal
+                                        jurisdictions for carrying out LFE business across the globe.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name"> What specific rights come with my contribution?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    Ownership of the LFE token will enable to participate in LFE ecosystem as it
+                                    evolved.
+                                    This ecosystem is described in the whitepaper and includes ecosystem tools, such as
+                                    the
+                                    LFE digital wallet, the LFE payments system, the ability to earn LFE points, access
+                                    to
+                                    LFE events and LFE access passes to participating football clubs. Further more,
+                                    having
+                                    LFE tokens will enable you to gain access to a portal where, upon qualifying, you
+                                    may be
+                                    able to purchase equity in football clubs that are participating in the LFE
+                                    Exchange.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">Are there financial statements?  If so, are they audited, and by whom?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    To date, there are no financial statements that are publically available. At the
+                                    close
+                                    of the ITO, the LFE Exchange will have an audit completed by one of the big four
+                                    global
+                                    accounting firms and executive summaries of the report will be made available to
+                                    contributors upon request.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">Is there trading data?  If so, is there some way to verify it?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    There is no trading data for the token yet, as the exchange is not yet commercial.
+                                    Approximately 6 weeks after the ITO is complete, contributors will receive
+                                    instructions
+                                    on how to access their digital tokens. During the iTO, when you make your
+                                    contribution
+                                    you will receive notification of exactly how many LFE tokens you have received for
+                                    your
+                                    contribution and the date/time that the transaction was completed.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name">How, when, and at what cost can I sell my contribution?  For example, do I have a right to give the token or coin back to the company or to receive a refund?  Can I resell the coin or token, and if so, are there any limitations on my ability to resell?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    In general, all contributions made are final and reverse exchange is not possible.
+                                    In
+                                    the unlikely event that contributions were made in error, or ¬the wrong quantity was
+                                    entered LFE Exchange will provide reasonable access to remediation, although this
+                                    may
+                                    incur a service change. LFE Exchange reserves the right to use its own judgment in
+                                    such
+                                    circumstances.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+                        <div class="toggle">
+                            <div class="toggle-title ">
+                                <h3>
+                                    <i></i>
+                                    <span class="title-name"> If a digital wallet is involved, what happens if I lose the key?  Will I still have access to my investment?
+ </span>
+                                </h3>
+                            </div>
+
+                            <div class="toggle-inner">
+                                <p>
+                                    If you lose the funds in your wallet during the transaction process for whatever
+                                    reason,
+                                    LFE Exchange will provide reasonable access to assist in the remediation of the
+                                    situation. However the transaction takes place at the contributors risk, and LFE
+                                    Exchange is not liable for misplaced funds.
+
+                                </p>
+                            </div>
+
+                        </div><!-- END OF TOGGLE -->
+
+                        <div class="faqsHiddenDesktop">
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> If a blockchain is used, is the blockchain open and public?  Has the code been published, and has there been an independent cybersecurity audit?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The LFE Platform will use the Ripple and Stellar networks to support token
+                                        issuance,
+                                        trades, and transfers. Built on distributed ledger technologies, these networks
+                                        will
+                                        clear in seconds and will support substantially higher transactions per second
+                                        (~1500tps) than competitive networks used by Bitcoin (3-6tps) and
+                                        Ethereum(15-50tps).
+                                        LFE Tokens are the underlying economic unit of the LFE marketplace. LFE Tokens
+                                        will
+                                        be
+                                        intended to be utility tokens that will help power the LFE platform. The
+                                        platform
+                                        code
+                                        is proprietary and has not been published although the token issuance and smart
+                                        contracts associated with the operation of the LFE tokens will be made
+                                        publically
+                                        available through appropriate technical channels (E.g. Reddit, Github etc.)
+
+                                        Cybersecurity and the prevention of fraud, hacking, phishing are taken extremely
+                                        seriously by LFE. Penetration tests and cybersecurity reviews and testing are
+                                        carried
+                                        out as part of the routine maintenance and assessment of the LFE network.
+
+                                        The LFE and marketplace security posture will be independently audited to the
+                                        PCI
+                                        DSS
+                                        certification
+
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name"> Has the offering been structured to comply with the securities laws and, if not, what implications will that have for the stability of the enterprise and the value of my investment?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The offering is that of a token, not a coin or security, and as such is not
+                                        appropriate
+                                        for consideration under securities laws. Exhaustive reviews have been undertaken
+                                        by
+                                        legal counsel and a statement explaining the legal review is available on the
+                                        LFE
+                                        web
+                                        site at (insert address)
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                            <!--<div class="toggle">-->
+                            <!--<div class="toggle-title ">-->
+                            <!--<h3>-->
+                            <!--<i></i>-->
+                            <!--<span class="title-name">What legal protections may or may not be available in the event of fraud, a hack, malware, or a downturn in business prospects?  Who will be responsible for refunding my investment if something goes wrong?-->
+                            <!--</span>-->
+                            <!--</h3>-->
+                            <!--</div>-->
+
+                            <!--<div class="toggle-inner">-->
+                            <!--<p>-->
+                            <!--&lt;!&ndash; Legal needs to answer this &ndash;&gt;-->
+                            <!--</p>-->
+                            <!--</div>-->
+
+                            <!--</div>&lt;!&ndash; END OF TOGGLE &ndash;&gt;-->
+                            <!--<div class="toggle">-->
+                            <!--<div class="toggle-title ">-->
+                            <!--<h3>-->
+                            <!--<i></i>-->
+                            <!--<span class="title-name"> If I do have legal rights, can I effectively enforce them and will there be adequate funds to compensate me if my rights are violated?-->
+                            <!--</span>-->
+                            <!--</h3>-->
+                            <!--</div>-->
+
+                            <!--<div class="toggle-inner">-->
+                            <!--<p>-->
+                            <!--&lt;!&ndash; Legal needs to answer this &ndash;&gt;-->
+
+                            <!--</p>-->
+                            <!--</div>-->
+
+                            <!--</div>&lt;!&ndash; END OF TOGGLE &ndash;&gt;-->
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Is LFE a platform?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The LFE Exchange is a digital platform facilitating the efficient transfer
+                                        between
+                                        FIAT,
+                                        cryptocurrencies, tokens and securities. By embracing the high standards for
+                                        securities
+                                        issuances, the LFE platform will create the basis for fan ownership as fans will
+                                        be
+                                        able
+                                        to indirectly purchase equity in a football club and participate in their teams’
+                                        success. We believe this will open up many new possibilities in the sports world
+                                        and
+                                        may
+                                        radically change the relationships between fans and their favourite teams.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Where is LFE incorporated?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        LFE is incorporated in the LFE MARKET LTD. Its company registration number is
+                                        11097709.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Will any more tokens be issued after the ITO?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        No , there will be no more tokens issued after the ending of the public ITO
+                                        period.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">How do I liquidate my LFE tokens?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        There is no liquidation option within the LFE Ecosystem. The LFE tokens enable
+                                        you
+                                        to
+                                        access goods, and services provided by the LFE Exchange.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">How will the tokens be distributed?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        -Once you have purchased your LFE token, you will receive an e-mail confirming
+                                        the
+                                        transaction, amount/date/time which will serve as your receipt. LFE tokens will
+                                        be
+                                        distributed to participants approximately 6 weeks after the close of the ITO.
+                                        You
+                                        will
+                                        be able to store your tokens in the LFE digital wallet that you will given
+                                        access
+                                        to.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">What are the costs associated with the LFE exchange?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The actual costs associated with running the LFE Exchange are expected to be an
+                                        order of
+                                        magnitude lower that that of a comparable conventional (non-blockchain) based
+                                        exchange.
+                                        The significant reduction in cost as matched by an increase in transaction
+                                        speed,
+                                        transparency and security. A more comprehensive description of how this is
+                                        achieved
+                                        is
+                                        covered in the LFE Exchange whitepaper (page 20)
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">Are you launching your own blockchain?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        No. The LFE Platform will use the Ripple and Stellar networks to support token
+                                        issuance,
+                                        trades, and transfers. Built on distributed ledger technologies, these networks
+                                        will
+                                        clear in seconds and will support substantially higher transactions per second
+                                        (~1500tps) than competitive networks used by Bitcoin (3-6tps) and Ethereum
+                                        (15-50tps).
+                                        LFE Tokens are the underlying economic unit of the LFE marketplace. LFE Tokens
+                                        will
+                                        be
+                                        intended to be utility tokens that will help power the LFE platform
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <!--<div class="toggle">-->
+                            <!--<div class="toggle-title ">-->
+                            <!--<h3>-->
+                            <!--<i></i>-->
+                            <!--<span class="title-name">Why can’t I send my LFE tokens to another account?-->
+                            <!--</span>-->
+                            <!--</h3>-->
+                            <!--</div>-->
+
+                            <!--<div class="toggle-inner">-->
+                            <!--<p>-->
+                            <!--&lt;!&ndash; ??? &ndash;&gt;-->
+
+                            <!--</p>-->
+                            <!--</div>-->
+
+                            <!--</div>&lt;!&ndash; END OF TOGGLE &ndash;&gt;-->
+
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">How can I buy a LFE token?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        You can buy your LFE tokens on-line through the existing LFE Exchange system. To
+                                        gain
+                                        access you need to visit www.lfe.com and submit your e-mail for registration.
+                                        You
+                                        will
+                                        then receive detailed instructions on how to complete the registration process.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">What can you buy with a LFE token?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        The more LFE Token holders engage with their favourite clubs and leagues, the
+                                        more
+                                        LFE
+                                        Points they will receive. LFE engagement services will include LFE Points, a
+                                        blockchain
+                                        enabled loyalty, rewards, and offers platform.
+                                        LFE Contributors benefit through special discounts, exclusive offers, rewards
+                                        and
+                                        other
+                                        incentives only available to LFE Token holders.
+                                        LFE engagement campaigns will support a loyalty based scheme granting points for
+                                        usage
+                                        of tokens and specific offers relating to specific products and merchandise that
+                                        shall
+                                        act as a promotion to incentivise token usage on a wider basis within the LFE
+                                        Group
+                                        ecosystem.
+
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">How to sell a LFE token?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        So, you don’t sell a LFE token, you exchange it for gear, use it to get
+                                        privileged
+                                        access or to be rewarded with on-pitch or in-stadium special events only open to
+                                        LFE
+                                        token holders
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+
+                            <div class="toggle">
+                                <div class="toggle-title ">
+                                    <h3>
+                                        <i></i>
+                                        <span class="title-name">What is Blockchain Technology?
+ </span>
+                                    </h3>
+                                </div>
+
+                                <div class="toggle-inner">
+                                    <p>
+                                        Blockchain is fundamentally a new type of database technology that is optimised
+                                        to
+                                        tackle a unique set of challenges. Historically, databases have been used as
+                                        central
+                                        data repositories by organisations to support transaction processing?and
+                                        computation.
+                                        However, databases are rarely shared between organisations due to a variety of
+                                        technological and security concerns. Blockchain is a database (with copies of
+                                        the
+                                        database replicated across multiple locations or nodes) of transactions (between
+                                        two
+                                        or
+                                        more parties) split into blocks (with each block containing details of the
+                                        transaction
+                                        such as the seller, the buyer, the price, the contract terms, and other relevant
+                                        details) which are validated by the entire network via encryption by combining
+                                        the
+                                        common transaction details with the unique signatures of two or more parties.
+                                        The
+                                        transaction is valid if the result of the encoding is the same for all nodes and
+                                        added
+                                        to the chain of prior transactions (as long as the block is validated). If the
+                                        block
+                                        is
+                                        invalid, a “consensus” of nodes will correct the result in the non-conforming
+                                        node.
+
+                                    </p>
+                                </div>
+
+                            </div><!-- END OF TOGGLE -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <button id="toggleFaqsBtn" class="readMoreFaqs">Read More</button>
+        </div>
+
+
+    </div>
+
+
+    <div class="container-fluid joinTeamFluid">
+
+        <div class="h2">Join the community</div>
+
+        <div class="socialLinksWrap">
+            <div class="followSection">
+                <p class="linksTitle">Follow us on</p>
+                <ul class="socialIcons">
+                    <li><a href="https://www.facebook.com/LFEexchange" target="_blank"><i
+                            class="fa fa-facebook"
+                            aria-hidden="true"></i></a>
+                    </li>
+
+                    <li><a href="https://twitter.com/LFEMarket" target="_blank"><i class="fa fa-twitter"
+                                                                                   aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ldnfe/" target="_blank"><i
+                            class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                    </li>
+
+                    <li><a href="https://plus.google.com/u/1/115466717779293445982" target="_blank"><i
+                            class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCq9Ah6Z6deQ_6Ti7Bk_zJKA"
+                           target="_blank"><i
+                            class="fa fa-youtube" aria-hidden="true"></i></a></li>
+
+                    <li><a href="https://vimeo.com/lfemarket" target="_blank"><i class="fa fa-vimeo"
+                                                                                 aria-hidden="true"></i></a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="joinSection">
+                <p class="linksTitle">Join </p>
+                <ul class="socialIcons">
+                    <li><a href="https://www.linkedin.com/groups/12090324" target="_blank"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                    <li><a href="https://discordapp.com/invite/6QMjBgr" target="_blank">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+                        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg class="discordIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="714.286px" height="816.326px" viewBox="142.857 91.837 714.286 816.326"
+	 enable-background="new 142.857 91.837 714.286 816.326" xml:space="preserve">
+<path class="discordInner"  fill="#FFFFFF" d="M426.122,434.286c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306
+	c23.265,0,41.633-20.408,41.633-45.306C468.163,454.694,449.388,434.286,426.122,434.286z M575.102,434.286
+	c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306c23.265,0,41.633-20.408,41.633-45.306
+	S598.367,434.286,575.102,434.286z"/>
+<path class="discordInner" fill="#FFFFFF" d="M773.469,91.837H226.531c-46.122,0-83.673,37.551-83.673,84.082v551.837
+	c0,46.531,37.551,84.082,83.673,84.082h462.857l-21.633-75.51L720,784.898l49.388,45.714l87.755,77.551V175.918
+	C857.143,129.388,819.592,91.837,773.469,91.837z M615.918,624.898c0,0-14.694-17.551-26.939-33.061
+	c53.469-15.102,73.878-48.571,73.878-48.571c-16.735,11.02-32.653,18.776-46.939,24.082c-20.408,8.571-40,14.286-59.184,17.551
+	c-39.184,7.347-75.102,5.306-105.714-0.408c-23.265-4.49-43.265-11.02-60-17.551c-9.388-3.673-19.592-8.163-29.796-13.878
+	c-1.224-0.816-2.449-1.224-3.673-2.041c-0.816-0.408-1.225-0.816-1.633-1.225c-7.347-4.082-11.429-6.939-11.429-6.939
+	s19.592,32.653,71.429,48.163c-12.245,15.51-27.347,33.878-27.347,33.878c-90.204-2.857-124.49-62.041-124.49-62.041
+	c0-131.429,58.776-237.959,58.776-237.959c58.776-44.082,114.694-42.857,114.694-42.857l4.082,4.898
+	c-73.469,21.224-107.347,53.469-107.347,53.469s8.98-4.898,24.082-11.837c43.673-19.184,78.367-24.49,92.653-25.714
+	c2.449-0.408,4.49-0.816,6.939-0.816c24.898-3.265,53.061-4.082,82.449-0.816c38.776,4.49,80.408,15.918,122.857,39.184
+	c0,0-32.245-30.612-101.633-51.837l5.714-6.531c0,0,55.918-1.225,114.694,42.857c0,0,58.776,106.531,58.776,237.959
+	C740.816,562.857,706.122,622.041,615.918,624.898z"/>
+</svg>
+
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="contactSection">
+                <p class="linksTitle">Contact</p>
+
+                <ul class="socialIcons">
+                    <li><a href="mailto:support@lfe.com" target="_blank"><i class="fa fa-envelope"
+                                                                            aria-hidden="true"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+<!-- Main end -->
+
+
+<!-- Footer -->
+<footer>
+    <div class="container-fluid footerFluid">
+        <div class="container footerContainer">
+            <div class="footerLinks">
+                <ul class="socialIcons">
+                    <li><a href="https://www.facebook.com/LFEexchange" target="_blank"><i class="fa fa-facebook"
+                                                                                          aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/company/lfemarket" target="_blank"><i class="fa fa-linkedin"
+                                                                                                aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/LFEMarket" target="_blank"><i class="fa fa-twitter"
+                                                                                   aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ldnfe/" target="_blank"><i class="fa fa-instagram"
+                                                                                      aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="mailto:support@lfe.com" target="_blank"><i class="fa fa-envelope"
+                                                                            aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://plus.google.com/u/1/115466717779293445982" target="_blank"><i
+                            class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCq9Ah6Z6deQ_6Ti7Bk_zJKA" target="_blank"><i
+                            class="fa fa-youtube" aria-hidden="true"></i></a></li>
+
+
+                    <li><a href="https://vimeo.com/lfemarket" target="_blank"><i class="fa fa-vimeo"
+                                                                                 aria-hidden="true"></i></a></li>
+
+                    <li><a href="https://discordapp.com/invite/6QMjBgr" target="_blank">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+                        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg class="discordIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="714.285px" height="816.326px" viewBox="142.858 91.837 714.285 816.326"
+	 enable-background="new 142.858 91.837 714.285 816.326" xml:space="preserve">
+<path  class="discordInner" fill="#172934" d="M426.122,434.286c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306
+	c23.265,0,41.633-20.408,41.633-45.306C468.163,454.694,449.388,434.286,426.122,434.286z M575.102,434.286
+	c-23.265,0-41.633,20.408-41.633,45.306s18.776,45.306,41.633,45.306c23.265,0,41.633-20.408,41.633-45.306
+	S598.367,434.286,575.102,434.286z"/>
+<path class="discordInner" fill="#172934" d="M773.469,91.837H226.531c-46.122,0-83.673,37.551-83.673,84.082v551.837
+	c0,46.531,37.551,84.082,83.673,84.082h462.857l-21.633-75.51L720,784.898l49.388,45.714l87.755,77.551V175.918
+	C857.143,129.388,819.592,91.837,773.469,91.837z M615.918,624.898c0,0-14.694-17.551-26.939-33.061
+	c53.469-15.102,73.878-48.571,73.878-48.571c-16.735,11.02-32.653,18.776-46.939,24.082c-20.408,8.571-40,14.286-59.184,17.551
+	c-39.184,7.347-75.102,5.306-105.714-0.408c-23.265-4.49-43.265-11.02-60-17.551c-9.388-3.673-19.592-8.163-29.796-13.878
+	c-1.224-0.816-2.449-1.224-3.673-2.041c-0.816-0.408-1.225-0.816-1.633-1.225c-7.347-4.082-11.429-6.939-11.429-6.939
+	s19.592,32.653,71.429,48.163c-12.245,15.51-27.347,33.878-27.347,33.878c-90.204-2.857-124.49-62.041-124.49-62.041
+	c0-131.429,58.776-237.959,58.776-237.959c58.776-44.082,114.694-42.857,114.694-42.857l4.082,4.898
+	c-73.469,21.224-107.347,53.469-107.347,53.469s8.98-4.898,24.082-11.837c43.673-19.184,78.367-24.49,92.653-25.714
+	c2.449-0.408,4.49-0.816,6.939-0.816c24.898-3.265,53.061-4.082,82.449-0.816c38.776,4.49,80.408,15.918,122.857,39.184
+	c0,0-32.245-30.612-101.633-51.837l5.714-6.531c0,0,55.918-1.225,114.694,42.857c0,0,58.776,106.531,58.776,237.959
+	C740.816,562.857,706.122,622.041,615.918,624.898z"/>
+</svg>
+
+                    </a></li>
+                </ul>
+                <ul class="links">
+                    <li><a href="https://lfe.com/terms" target="_blank">Terms of Use</a></li>
+                    <li><a href="https://lfe.com/privacy" target="_blank">Privacy </a></li>
+
+
+                </ul>
+            </div>
+            <div class="textPlaceholder">
+                <h5 class="h5">
+                    Important Legal Disclaimer
+                </h5>
+
+                <p>
+                    Access to products and services detailed on this website may be restricted for certain persons or
+                    countries. In particular, the products and services referred to herein are not available to U.S.
+                    Persons, as defined by Regulation S of the United States Securities and Exchange Commission, as
+                    amended (“U.S. Persons”). The information contained on this website is not available to U.S.
+                    Persons. Investors who are such “U.S. Persons” should not view this website. The provision of the
+                    information in this website does not constitute an offer of securities to any person in the United
+                    States or to any “U.S. Person.” LFE Market, LTD. is not registered under the U.S. Investment Company
+                    Act of 1940, as amended, nor is the sale of LFE tokens registered under the U.S. Securities Act of
+                    1933, as amended. Consequently, it cannot be offered for sale or be sold in the United States, its
+                    territories, possessions or protectorates under its jurisdiction, nor to nationals, citizens or
+                    residents in any of those areas, except pursuant to a valid exemption. More generally, the products
+                    and services presented on this website may only be purchased in jurisdictions in which their
+                    marketing and distribution are authorised. LFE Market, LTD. advises all interested parties to check
+                    in advance whether they are legally entitled to purchase the products and/or services presented on
+                    the website.
+                </p>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</footer>
+
+
+<!-- Pop up for bio desc start -->
+<!-- The Modal -->
+<div id="myModal" class="modal modalTeam">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+        <div class="modal-body">
+            <span class="close">&times;</span>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="modalImg"><img src="" alt="" class="img-responsive">
+
+
+                    </div>
+
+                    <p class="nameSurnameModal"></p>
+                    <p class="positionModal"></p>
+                    <!--<a href="" target="blank" class="linkedInModal"><i-->
+                    <!--class="fa fa-linkedin circle" aria-hidden="true"></i></a>-->
+
+
+                </div>
+                <div class="col-md-9">
+                    <p class="bioModalTitle">Biography</p>
+
+                    <p class="bioModal"></p>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="modal-footer">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+
+</div>
+
+<!-- Pop up for bio desc end -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<script src="lp-assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="lp-assets/js/indexSlider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+<script>
+    $(function () {
+        $('.selectpicker').selectpicker();
+    });
+</script>
+
+<script>
+
+    $(window).scroll(function () {
+        var windowWidth = $(window).width();
+        if (windowWidth > 993 - 17) {
+            var st = $(this).scrollTop();
+            $(".ticket2").css({
+                "transform": "translate(0%, -" + st / 10 + "%"
+            });
+
+            $(".ticket1").css({
+                "transform": "translate(0%, -" + st / 20 + "%"
+            });
+
+            $(".card").css({
+                "transform": "translate(0%, -" + st / 8 + "%"
+            });
+        }
+    });
+
+
+    $(window).resize(function () {
+        var windowWidth = $(window).width();
+        if (windowWidth > 993 - 17) {
+            var st = $(this).scrollTop();
+
+
+            // $(".ticket2").css({
+            //     "transform": "translate(0%, -" + st / 10 + "%"
+            // });
+            //
+            // $(".ticket1").css({
+            //     "transform": "translate(0%, -" + st / 20 + "%"
+            // });
+            //
+            // $(".card").css({
+            //     "transform": "translate(0%, -" + st / 8 + "%"
+            // });
+            //
+            // $(".ticket2").css({"position": ""});
+            // $(".ticket1").css({"position": ""});
+            // $(".card").css({"position": ""});
+
+        }
+        else {
+            // $(".ticket2").css({
+            //     "transform": ""
+            // });
+            //
+            // $(".ticket1").css({
+            //     "transform": ""
+            // });
+            //
+            // $(".card").css({
+            //     "transform": ""
+            // });
+            //
+            // $(".ticket2").css({"position": "static"});
+            // $(".ticket1").css({"position": "static"});
+            // $(".card").css({"position": "static"});
+            // $(".tickets").css({"display": "flex"});
+        }
+
+    });
+
+
+</script>
+
+<script src="lp-assets/js/index.js"></script>
+<script src="lp-assets/js/indexPopUp.js"></script>
+
+<script>
+
+
+    /*Link effects start*/
+    $(".scrollSection").on("click", "a", function (event) {
+        //cancel stanadrt click on link
+        event.preventDefault();
+        var headerH = $(".headerFluid").height();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top - headerH;
+
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+</script>
+
+<script>
+    //FOR FAQS start
+    if (jQuery(".toggle .toggle-title").hasClass('active')) {
+        jQuery(".toggle .toggle-title.active").closest('.toggle').find('.toggle-inner').show();
+    }
+    jQuery(".toggle .toggle-title").click(function () {
+        if (jQuery(this).hasClass('active')) {
+            jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner').slideUp(200);
+        }
+        else {
+            jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner').slideDown(200);
+        }
+    });
+    //FOR FAQS end
+</script>
+
+<script>
+    //vimeo start
+    let playButton = document.querySelector('.videoYouTube a');
+    playButton.addEventListener('click', playVideo);
+
+    function playVideo(e) {
+        e.preventDefault();
+        let videoContainer = this.parentNode;
+        let videoUrl = this.href;
+        let videoId = videoUrl.split('.com/')[1];
+        let iframeUrl;
+
+        if (videoUrl.includes('vimeo')) {
+            // vimeo
+            videoId = videoId.split('?')[0];
+            iframeUrl = `//player.vimeo.com/video/${videoId}?autoplay=1`;
+        } else {
+            // youtube
+            videoId = videoId.split('v=')[1];
+            iframeUrl = `//www.youtube.com/embed/${videoId}?autoplay=1`;
+        }
+
+        videoContainer.innerHTML = `<iframe src="${iframeUrl}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`;
+    }
+
+    //vimeo end
+</script>
+
+
+<script type="text/javascript" id="cookieinfo"
+        src="//cookieinfoscript.com/js/cookieinfo.min.js">
+</script>
+
+<script type="text/javascript" id="cookieinfo"
+        src="//cookieinfoscript.com/js/cookieinfo.min.js"
+        data-bg="#645862"
+        data-height="100px"
+        data-fg="#FFFFFF"
+        data-link="#F1D600"
+        data-cookie="CookieInfoScript"
+        data-text-align="right"
+        data-message="sasadasdasdassadsadas das sa as"
+        data-close-text="Got it!">
+</script>
+
+<script>
+    function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
+
+    function initializeClock(id, endtime) {
+        var clock = document.getElementById(id);
+        var daysSpan = clock.querySelector('.days');
+        var hoursSpan = clock.querySelector('.hours');
+        var minutesSpan = clock.querySelector('.minutes');
+        var secondsSpan = clock.querySelector('.seconds');
+
+        function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+                clearInterval(timeinterval);
+            }
+        }
+
+        updateClock();
+        var timeinterval = setInterval(updateClock, 1000);
+    }
+
+    var deadline = new Date(Date.UTC(2018, 1, 12));
+
+
+    // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+    initializeClock('clockdiv', deadline);
+</script>
+
+<!-- Custom menuScript.js BEGIN -->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#closeBtnMenu").click(function () {
+            $("#navMenu").css({"width": "0"});
+        });
+
+        $("#openNav").click(function () {
+            $("#navMenu").css({"width": "100%"});
+        })
+    });
+
+
+    /*Link effects start*/
+    $(".headerWrap").on("click", "a", function (event) {
+        //cancel stanadrt click on link
+        event.preventDefault();
+
+        var headerH = $(".headerFluid").height();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top - headerH + 10;
+
+        const mq = window.matchMedia("(min-width: 1201px)");
+// media query event handler
+        if (matchMedia) {
+            // const mq = window.matchMedia("(min-width: 1201px)");
+            mq.addListener(WidthChange);
+            WidthChange(mq);
+        }
+
+// media query change
+        function WidthChange(mq) {
+            if (mq.matches) {
+                // window width is at least 1200px
+                $("#navMenu").css({"width": "100%"});
+            } else {
+                // window width is less than 1200px
+                $("#navMenu").css({"width": "0"});
+                top = top + 10;
+            }
+        }
+
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+    /*Link effects end*/
+</script>
+<script src="lp-assets/js/resize.js"></script>
+
+<!-- Custom menuScript.js END -->
+
+
+<!--<script src="lp-assets/js/jqBootstrapValidation.js"></script>-->
+
+<!--<script>-->
+<!--$(function () { $("input,select,textarea").not(".submitBtn").jqBootstrapValidation(); } );-->
+<!--</script>-->
+</body>
+</html>

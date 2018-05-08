@@ -1,0 +1,62 @@
+.headerFluid .rightHeader .getAccessHeaderBtn {
+  font-size: 15px;
+}
+.headerFluid .discount {
+  font-size: 16px;
+}
+.headerFluid #clockdiv {
+  font-size: 15px;
+}
+.throughFluid .throughContainer .form .email {
+  width: 405px;
+}
+.throughFluid .throughContainer .form .submitBtn {
+  width: 245px;
+}
+.timelineFluid .timelineContainer .inverted-steps-pane .title {
+  padding-top: 0;
+  font-size: 19px;
+}
+.timelineFluid .timelineContainer .inverted-steps-pane .price {
+  padding-top: 10px;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  .throughFluid .throughContainer .form ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 15px;
+  }
+  .throughFluid .throughContainer .form ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 15px;
+  }
+  .throughFluid .throughContainer .form :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 15px;
+  }
+  .throughFluid .throughContainer .form :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 15px;
+  }
+  .throughFluid .throughContainer .form .email {
+    width: 100%;
+  }
+  .throughFluid .throughContainer .form .submitBtn {
+    width: 100%;
+  }
+  .howItWorksFluid .howItWorksContainer .downloadPaperBtn {
+    width: 100%;
+    display: block;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .throughFluid .throughContainer .form .email {
+    width: 100%;
+  }
+  .throughFluid .throughContainer .form .submitBtn {
+    width: 100%;
+  }
+  .howItWorksFluid .howItWorksContainer .downloadPaperBtn {
+    width: 100%;
+    display: block;
+  }
+}
